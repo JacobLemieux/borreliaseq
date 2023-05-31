@@ -1,0 +1,15 @@
+### Description of the directory
+# January 15 2023
+# lemieux@broadinstitute.org
+
+1. notebooks/pangenome_association_studies.ipynb: Jupyter notebook in python that executes pyseer commands. Depends on metadata as input. Writes phenotype file as intermediate.
+- depends on similarity / distance matrices from tree. Should modify script to create these. 
+
+2. notebooks/Make_Manhattan.ipynb: Jupyter notebook in python that that obtains annotation of pan-genome using minimap2, generates figures 7A-C, and supplemental table 1-2. 
+
+3. notebooks/format_Genbank.R: R script that outputs genbank submission files and supplemental table 3.
+
+4. notebooks/annotate_tree.ipynb: Jupyter notebook in R that generates main figures 1-6 and all supplemental figures. Depends on cleaned assemblies, trees from fasttree, distance matrix from kWIP.  
+
+5. notebooks/plasmid_assembly_analysis.R: R script that parses quast output and determines whether a plasmid is present or absent based on coverage > threshold. Outputs to plasmid_alignment_ref.tsv.
+

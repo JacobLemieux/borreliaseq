@@ -1,0 +1,8 @@
+Incorrect number of command line arguments.
+Usage: hmmsearch [options] <hmmfile> <seqdb>
+
+where most common options are:
+  -h : show brief help on version and usage
+
+To see more help on available options, do hmmsearch -h
+
